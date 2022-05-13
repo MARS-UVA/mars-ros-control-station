@@ -1,0 +1,15 @@
+.vscode
+.idea
+build
+devel
+build_isolated
+devel_isolated
+.catkin_tools
+logs
+temp
+compile_commands.json
+*.bag
+install
+.mypy_cache
+*.py[cod]
+__pycache__
