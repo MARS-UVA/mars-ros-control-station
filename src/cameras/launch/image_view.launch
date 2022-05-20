@@ -1,0 +1,6 @@
+<launch>
+    <env name="ROSCONSOLE_FORMAT" value="[${node}] [${severity}] [WallTime: ${time}]: ${message}" />
+
+    <node name="rqt_image_view" pkg="rqt_image_view" type="rqt_image_view" output="screen" />
+
+</launch>
